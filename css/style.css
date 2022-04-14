@@ -1,0 +1,46 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+#container {
+    background-color: rgba(240, 248, 255, 0.185);
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 120px;
+    padding: 15px;
+}
+
+#container img {
+    width: 220px;
+    height: 220px;
+    margin-top: -115px;
+    margin-left: 273px;
+}
+
+@media (max-width:575.98px) {
+
+    #container {
+        width: 300px;
+    }
+
+    #container img {
+        margin-left: 18%;
+        width: 180px;
+        height: 180px;
+    }
+
+    #logar1 {
+        width: 250px;
+        margin-left: -15px;
+
+    }
+
+    #create {
+        width: 250px;
+        margin-left: -15px;
+    }
+    
+}
